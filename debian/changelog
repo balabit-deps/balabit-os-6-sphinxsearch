@@ -1,3 +1,10 @@
+sphinxsearch (0.9.8-1.zorpos33.1) scb20; urgency=low
+
+  * Use zorpos version
+  * use debhelper version 5
+
+ -- ILLES, Marton <marci@balabit.hu>  Tue, 02 Dec 2008 14:47:32 +0100
+
 sphinxsearch (0.9.8-1) unstable; urgency=low
 
   * Updated to stable 0.9.8 release.
