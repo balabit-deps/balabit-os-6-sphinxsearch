@@ -3,13 +3,13 @@ Section: misc
 Priority: optional
 Maintainer: Monty Taylor <monty@inaugust.com>
 Uploaders: Marco Rodrigues <gothicx@sapo.pt>
-Build-Depends: debhelper (>= 5), autotools-dev, gawk, dpatch, autoconf, libtool, automake
+Build-Depends: debhelper (>= 5), autotools-dev, gawk, libmysqlclient15-dev, dpatch, libpq-dev, autoconf, libtool, automake
 Standards-Version: 3.8.0
 Homepage: http://www.sphinxsearch.com/
 
 Package: sphinxsearch
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, libmysqlclient15off | libmysqlclient15 
 Description: Fast standalone full-text SQL search engine
  Sphinx is a standalone full text search engine, meant to provide fast, 
  size-efficient and relevant fulltext search functions to other applications. 
