@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Monty Taylor <monty@inaugust.com>
 Uploaders: Marco Rodrigues <gothicx@sapo.pt>
-Build-Depends: debhelper (>= 5), autotools-dev, gawk, dpatch, autoconf, libtool, automake
+Build-Depends: debhelper (>= 5), autotools-dev, gawk, dpatch, autoconf, libtool, automake, libexpat1-dev
 Standards-Version: 3.8.0
 Homepage: http://www.sphinxsearch.com/
 
